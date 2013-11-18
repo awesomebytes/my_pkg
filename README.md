@@ -64,5 +64,6 @@ It won't find .srv and other crazy stuff on runtime.
    ~/catkin_ws/install/lib/python2.7/dist-packages/my_pkg/srv
  
 
-In the end you can run the dummy python file with:
+#In the end you can run the dummy python file with:
+
 rosrun my_pkg import_srv_and_message.py
