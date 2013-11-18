@@ -5,7 +5,7 @@ ROS Catkin (Hydro) Python example package with creation of Srv (.srv) and Msg (.
 
 
 ### REMEMBER: Don't give the name of your package to your executable. Really, don't.
-It won't find .srv and other crazy stuff.
+It won't find .srv and other crazy stuff on runtime.
 
 #To create this I've mainly followed the instructions (randomly)...
 
@@ -63,3 +63,6 @@ It won't find .srv and other crazy stuff.
  Installing srvs at:
    ~/catkin_ws/install/lib/python2.7/dist-packages/my_pkg/srv
  
+
+In the end you can run the dummy python file with:
+rosrun my_pkg import_srv_and_message.py
