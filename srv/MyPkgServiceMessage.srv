@@ -1,0 +1,4 @@
+# This is a .srv not doing much
+std_msgs/String call_string
+---
+std_msgs/String return_string
