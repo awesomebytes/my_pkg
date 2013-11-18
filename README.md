@@ -21,7 +21,7 @@ It won't find .srv and other crazy stuff.
 
 #Mainly I've got it to work doing:
 
-1. All dependencies on all tags of package.xml (<buildtool_depend> <build_depend> <run_depend>)
+1. All dependencies on all tags of package.xml (buildtool_depend build_depend run_depend)
 
 2. All dependencies on find_package(catkin REQUIRED COMPONENTS genmsg rospy std_msgs actionlib actionlib_msgs)
 
