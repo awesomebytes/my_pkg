@@ -4,6 +4,8 @@ my_pkg
 ROS Catkin (Hydro) Python example package with creation of Srv (.srv) and Msg (.msg) and ActionServer (.action) messages
 
 
+### REMEMBER: Don't give the name of your package to your executable. Really, don't.
+It won't find .srv and other crazy stuff.
 
 #To create this I've mainly followed the instructions (randomly)...
 
