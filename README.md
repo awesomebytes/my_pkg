@@ -1,7 +1,7 @@
 my_pkg
 ======
 
-ROS Catkin (Hydro) Python example package with creation of Srv and Msg messages
+ROS Catkin (Hydro) Python example package with creation of Srv (.srv) and Msg (.msg) and ActionServer (.action) messages
 
 
 
