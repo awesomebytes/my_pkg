@@ -1,0 +1,8 @@
+#goal definition
+int32 order
+---
+#result definition
+std_msgs/String result_str
+---
+#feedback
+int32[] sequence
