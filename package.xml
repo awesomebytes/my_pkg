@@ -17,20 +17,19 @@
 
 
   <buildtool_depend>catkin</buildtool_depend>
-  <buildtool_depend>genmsg</buildtool_depend>
+  <buildtool_depend>message_generation</buildtool_depend>
   <buildtool_depend>std_msgs</buildtool_depend>
   <buildtool_depend>actionlib</buildtool_depend>
   <buildtool_depend>actionlib_msgs</buildtool_depend>
   
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
-  <build_depend>genmsg</build_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>actionlib_msgs</build_depend>
 
   <run_depend>rospy</run_depend>
   <run_depend>std_msgs</run_depend>
-  <run_depend>genmsg</run_depend> <!-- REALLY????? -->
+  <run_depend>message_runtime</run_depend> <!-- REALLY????? -->
   <run_depend>actionlib</run_depend>
   <run_depend>actionlib_msgs</run_depend>
 

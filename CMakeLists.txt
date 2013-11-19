@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(my_pkg)
 
 
-find_package(catkin REQUIRED COMPONENTS genmsg rospy std_msgs actionlib actionlib_msgs)
+find_package(catkin REQUIRED COMPONENTS message_generation rospy std_msgs actionlib actionlib_msgs)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
@@ -56,7 +56,7 @@ add_action_files(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES my_pkg
-  CATKIN_DEPENDS genmsg rospy std_msgs actionlib actionlib_msgs# Anything you put here seems to be needed in package.xml as build_depend and run_depend, I have buildtool_depend too but I'm unsure if it's needed
+  CATKIN_DEPENDS message_runtime rospy std_msgs actionlib actionlib_msgs# Anything you put here seems to be needed in package.xml as build_depend and run_depend, I have buildtool_depend too but I'm unsure if it's needed
 #  DEPENDS system_lib
 )
 
